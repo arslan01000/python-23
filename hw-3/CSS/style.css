@@ -1,0 +1,300 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #111;
+}
+
+.container {
+    max-width: 1164px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    border-bottom: 1px solid rgba(17, 17, 17, 0.5);
+    padding: 10px 0 8px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 0;
+}
+
+.phone {
+    color: #007198;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: 45px;
+}
+
+.btn {
+    font-size: 12px;
+    background-color: #F47220;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(244, 114, 32, 0.4);
+    border: none;
+    padding: 8px 15px;
+}
+
+.main-list {
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-link {
+    color: #111;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.main {
+    background-color: rgba(72, 184, 223, 0.2);
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0 55px;
+}
+
+.main-title {
+    font-size: 44px;
+    font-weight: 400;
+    margin: 0;
+    width: 34%;
+}
+
+.main-title span {
+    color: #007198;
+}
+
+.main-text {
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0;
+    margin-right: 60px;
+    width: 50%;
+}
+
+/* #################MAIN BODY */
+.body-title {
+    text-align: center;
+    font-size: 30px;
+    color: #111111;
+}
+.equip-container span{
+    color: #007198;
+    font-size: 30px;
+}
+
+.equip-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.equip-card {
+    width: 330px;
+    background-color: #fff;
+    border: 1px solid #007198;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(17, 17, 17, 0.25);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.equip-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.equip-p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    margin-bottom: auto;
+}
+
+.equip-link {
+    font-size: 18px;
+    line-height: 23px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: right;
+    display: inline-block;
+
+}
+
+.equip-link:hover {
+    text-decoration: underline;
+}
+
+/* #####Chem */
+
+.chem-container span {
+    color: #007198;
+    font-size: 30px;
+}
+
+.chem-title {
+    margin: 30px 0 20px;
+    padding: 35px 0 15px;
+    text-align: center;
+    font-size: 30px;
+    color: #111111;
+}
+
+.chem-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.chem-card {
+    width: 231px;
+    background-color: #fff;
+    border: 1px solid #007198;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(17, 17, 17, 0.25);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0;
+}
+
+.chem-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.chem-description {
+    text-align: left;
+    font-size: 18px;
+    line-height: 23px;
+    color: #111111;
+    margin-bottom: auto;
+}
+
+.chem-link {
+    font-size: 18px;
+    line-height: 23px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: right;
+    display: inline-block;
+}
+
+.chem-link:hover {
+    text-decoration: underline;
+}
+
+/* 
+#####BRANDS */
+
+.p-brands {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #111;
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    padding-right: 38%;
+}
+
+.brands-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 77px;
+    flex-wrap: wrap;
+    margin-bottom: 95px;
+}
+
+.brand {
+    max-width: 900px;
+    height: auto;
+
+}
+
+.footer {
+    border-top: 1px solid #aaa ;
+    background-color: #e0f3fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-line {
+    border: none;
+    border-top: 1px solid #aaa;
+    max-width: 1127px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #333;
+    padding: 32px;
+}
+.f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 88px;
+    flex-wrap: wrap;
+    margin-bottom: 95px;
+}
+
+.footer-left, .footer-center {
+    margin: 0 30px;
+    text-align: center;
+    flex: 1;
+}
+
+.footer-right {
+    margin: 0 30px;
+    text-align: center;
+    flex: 2;
+}
+.footer-link {
+    color: #007198;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
