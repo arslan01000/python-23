@@ -1,14 +1,26 @@
-# My Django Web Project
-This is a beginner-friendly project developed as part of an online Python Django web development course. It includes a basic implementation of Django along with introductory HTML and CSS. There's gonna be DBMS for sure. as well as algorithms.
+# python-23: Django Web Project
+
+This project is part of the "Python (Django)" course offered by one online school.
 
 ## About the Project
-This project serves as a learning tool, combining Django, HTML, and CSS to create a simple, interactive web application. It's my first step into web development, and I'll be building upon it as I progress in the course.
+
+The project serves as a comprehensive learning tool, combining Django, HTML, CSS, and JavaScript to create a dynamic web application. It encompasses various aspects of web development, including backend development with Django, frontend design with HTML and CSS, and database management with PostgreSQL.
 
 ## Features
-- Django Backend: A simple web framework for building the application.
-- HTML Structure: Basic web page layout using HTML5.
-- CSS Styling: Introductory styling for a more appealing user interface.
-- What I've Learned
-- Setting up a Django project and app.
-- Basic HTML tags and their structure.
-- Styling with CSS, including selectors and properties.
+
+- **Django Backend**: Utilizes the Django framework to build robust web applications.
+- **HTML and CSS**: Employs HTML for structure and CSS for styling to create responsive and user-friendly interfaces.
+- **JavaScript Integration**: Incorporates JavaScript to enhance interactivity and user experience.
+- **PostgreSQL Database**: Implements PostgreSQL for efficient data storage and management.
+
+## Learning Outcomes
+
+Through this project, I will be gaining experience in:
+
+- **Setting Up a Django Project**: Configuring and initializing Django applications.
+- **Frontend Development**: Crafting web page layouts with HTML5 and styling with CSS, including responsive design using Bootstrap.
+- **Backend Development**: Developing server-side logic with Django, managing data with Django ORM, and creating RESTful APIs using Django REST Framework.
+- **Database Management**: Designing and interacting with PostgreSQL databases, including writing complex queries and ensuring data integrity.
+- **Version Control**: Utilizing Git for version control to manage codebase changes effectively.
+
+For more details visit my /python-23 directory.
