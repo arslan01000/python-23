@@ -1,0 +1,268 @@
+body {
+    font-family: "Montserrat", serif;
+    margin: 0;
+    background-color: rgba(225, 238, 251, 0.3);
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    margin-bottom: 45px;
+    padding: 45px 0 38px;
+    background-color: #E1EEFB;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 0;
+}
+
+.nav {
+    margin-left: auto;
+}
+
+.nav-text {
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color: #2B7BC6;
+    padding-left: 16px;
+}
+
+.main-container {
+    position: relative;
+    margin-bottom: 80px;
+    
+}
+
+.main-info {
+    background-color: #3BB9B8;
+    padding: 50px 40px 40px 450px;
+    margin-left: 100px;
+}
+
+.main-title {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 30px 550px;
+    padding-top: 15px;
+}
+
+.main-text {
+    line-height: 30px;
+    color: #fff;
+    font-weight: 500;
+    margin: 0 0 30px;
+}
+
+.main-img {
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+
+.advantages {
+    background-color: #fff;   
+    margin-bottom: 50px; 
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    align-items: center;
+}
+
+.i-block {
+    width: 24%;
+    margin: 10px 0;
+}
+.a-p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    padding: 32px 27px 24px 92px;
+    margin: 0;
+}
+
+.i-1 {
+    background-image: url("../images/ic-1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+    display: inline-block;
+    padding: 1px;
+    
+}
+
+.i-2 {
+    background-image: url("../images/ic-2.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+    display: inline-block;
+    padding: 1px;
+
+}
+.i-3 {
+    background-image: url("../images/ic-3.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+    display: inline-block;
+    padding: 1px;
+
+}
+.i-4 {
+    background-image: url("../images/ic-4.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+    display: inline-block;
+    padding: 1px;
+
+}
+
+.collections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.collection-block {
+    position: relative;
+}
+
+.subtitle {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 30px;
+}
+
+.collection-info {
+    position: absolute;
+    bottom: 35px;
+    left: 45px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.collection-info strong {
+    font-size: 18px;
+    background-color: rgba(59, 185, 184, 0.8);
+    display: block;
+    padding: 8px 15px;
+    margin-bottom: 5px;
+}
+
+.collection-info span {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+    margin: 0 0 100px;
+}
+
+.card {
+    width: 24%;
+    background-color: #fff;
+    position: relative;
+}
+
+.discount {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    background-color: #EA1649;
+    padding: 4px 22px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+
+.s-img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 42px;
+    padding: 9.5px 9.5px;
+}
+
+.cards h6 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    margin: 0 0 11px;
+    padding: 0 18px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0 18px;
+}
+
+.cards button {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    color: #2B7BC6;
+    border: solid 2px #2B7BC6;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 9px 22px;
+    position: absolute;
+    bottom: 40px;
+    right: 22px;
+}
+
+
+.footer {
+    background-color: #fff;
+    padding: 35px 0 60px;
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    
+}
+footer .span-cop {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #99A3A9;
+}
+
+footer .span-num {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 40px;
+    color: #000;
+}
+
+footer .a-email {
+    font-weight: 500;
+    font-size: 14px;
+    color: #1061AB;
+    text-decoration: none;
+}
