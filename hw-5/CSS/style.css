@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+
+.header {
+    margin-bottom: 70px;
+}
+
+.nav-l-m {
+    margin-left: auto;
+}
+
+.intro {
+    margin-bottom: 155px;
+}
+
+.main-title {
+    padding-top: 136px;
+}
+
+.main-button {
+    padding: 15px 69px;
+}
+
+.str-sec {
+    margin-bottom: 90px;
+
+}
+
+.cli-sec {
+    margin-bottom: 95px;
+}
+
+.j-g {
+    padding: 66px 199px 12px 80px;
+}
+
+.img-e {
+    max-height: 405px;
+    max-width: 384px;
+    padding: 0;
+}
+
+.f-bg {
+    background-color: #D1E7DD;
+}
