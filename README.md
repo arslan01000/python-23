@@ -1,6 +1,6 @@
 # python-23: Django Web Project
 
-This project is part of the "Python (Django)" course offered by one online school.
+This project is part of the "Python (Django)" course one online school offers.
 
 ## About the Project
 
