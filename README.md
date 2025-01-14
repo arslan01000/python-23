@@ -23,4 +23,5 @@ Through this project, I will be gaining experience in:
 - **Database Management**: Designing and interacting with PostgreSQL databases, including writing complex queries and ensuring data integrity.
 - **Version Control**: Utilizing Git for version control to manage codebase changes effectively.
 
+### Currently at the end of the 1st month )
 For more details visit my /python-23 directory.
