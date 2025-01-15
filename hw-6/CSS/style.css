@@ -1,0 +1,85 @@
+body {
+    font-family: "Roboto", serif;
+}
+
+.header {
+    margin-bottom: 82px;
+}
+
+.navig-bar {
+    font-size: 15px;
+}
+
+.m-f-s {
+    font-size: 40px;
+}
+
+.main-button {
+    font-size: 24px;
+}
+
+.p-main {
+    padding-right: 75px;
+}
+
+.main-button {
+    padding: 11px 45px;
+}
+
+.srch-1000 {
+    margin-bottom: 70px;
+}
+.srch-title {
+    font-size: 40px;
+}
+
+.srch-1000 ::placeholder {
+    padding-left: 32px;
+    color: rgba(0, 0, 0, 0.50);
+}
+
+.srch-i {
+    background-image: url(../images/ic-search.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    max-width: 64%;
+}
+
+.srch-b {
+    padding: auto 45px;
+}
+
+.p-title {
+    font-size: 40px;
+}
+.pop-t {
+    font-size: 20px;
+}
+
+.f-title {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.f-p {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.f-1-i ::placeholder {
+    color: rgba(0, 0, 0, 0.50);
+}
+
+.f-p-last {
+    font-size: 12px;
+}
+
+.footer-p {
+    font-size: 14px;
+
+}
+
+.footer-p-2 {
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 15px;
+}
