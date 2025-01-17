@@ -1,1 +1,53 @@
-/* #soon */
+body {
+    font-family: "Raleway", serif;
+}
+
+.bg-orange {
+    background-color: #F05A00;
+}
+
+.navbar-toggler,
+.btn-user {
+    width: 55px;
+    height: 55px;
+    padding: 0;
+    font-size: 26px;
+    line-height: 56px;
+}
+
+.btn-register:hover {
+    background-color: #bd4800;
+}
+
+.fs-7 {
+    font-size: 14px;
+}
+
+.discount {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    padding: 4px 7px;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+
+.cart {
+    color: #F05A00;
+    width: 55px;
+    height: 55px;
+    font-size: 30px;
+}
+
+.custom-rounded {
+    /* width: 55px;
+    height: 55px; */
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid #F05A00;
+    /* Orange border */
+}
