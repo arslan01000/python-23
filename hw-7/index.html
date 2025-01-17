@@ -1,1 +1,146 @@
-<!-- #soon -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-light">
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-xxl">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="InstRoom">
+                </a>
+                <button class="navbar-toggler bg-orange text-white ms-auto me-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                    <i class="bi bi-list-nested"></i>
+                </button>
+                <button class="btn-user bg-orange text-white border-0 rounded-2 order-lg-1" data-bs-toggle="modal"
+                    data-bs-target="#modal-registration">
+                    <i class="bi bi-person-circle"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav fw-medium mx-auto">
+                        <li class="nav-item mx-lg-3">
+                            <a class="nav-link text-white" href="#">О компании</a>
+                        </li>
+                        <li class="nav-item mx-lg-3">
+                            <a class="nav-link text-white" href="#">Акции</a>
+                        </li>
+                        <li class="nav-item mx-lg-3">
+                            <a class="nav-link text-white" href="#">Хиты сезона</a>
+                        </li>
+                        <li class="nav-item mx-lg   -3">
+                            <a class="nav-link text-white" href="#">Новинки</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="bg-secondary py-5">
+        <div class="container-xxl">
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col text-center">
+                    <img class="rounded-2 img-fluid" src="images/main-photo.jpg" alt="DeWalt инструмент">
+                </div>
+                <div class="col text-white ps-lg-5 text-center text-lg-start">
+                    <h1 class="fw-semibold mt-3 mt-xl-5">DeWALT - Инструмент с настоящим характером</h1>
+                    <p class="fs-7 fw-medium mt-3 mt-xl-4">DeWALT - американский бренд инновационных высокотехнологичных
+                        электроинструментов, оснастки, принадлежностей, одежды для строительства, производства и
+                        деревообрабатывающей промышленности
+                    </p>
+                    <a class="fw-semibold text-white bg-orange py-3 px-4 text-decoration-none text-uppercase rounded-2 mt-3 mt-xl-5 d-inline-block"
+                        href="#">Перейти в каталог</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="container-xxl pt-3 mb-5 pb-5">
+        <h2 class="fs-1 fw-semibold mt-5 mb-4">Популярные товары</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <div class="card text-left border-0 px-1 ">
+                <img class="border-bottom border-3 text-white" src="images/photo-1.jpg" alt="Эмаль Condor ПФ-115 жёлтая">
+                <div class="card-body">
+                    <p class="fw-medium mt-2">Эмаль Condor ПФ-115 жёлтая</p>
+                    <span class="discount bg-dark">Новинка</span>
+                </div>
+                <div class="card-footer bg-transparent border-top-0 text-end">
+                    <i class="bi bi-check2 text-success"></i>
+                    <span class="fs-7 text-success">в наличии</span>
+                    <button class="custom-rounded bg-transparent p-2" type="button">
+                        <i class="bi bi-cart cart p-2 bg-transparent"></i>
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    
+
+
+    <div class="modal fade" id="modal-registration" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-center">Регистрация</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="form-registration">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Введите имя</label>
+                            <input type="text" class="form-control" id="name" placeholder="ФИО" required name="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Введите email</label>
+                            <input type="email" class="form-control" id="email" placeholder="example@mail.ru" required
+                                name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Введите пароль</label>
+                            <input type="password" class="form-control" id="password" placeholder="Пароль" required
+                                name="password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="re-password" class="form-label">Повторите пароль</label>
+                            <input type="password" class="form-control" id="re-password" placeholder="Пароль" required
+                                name="re-password">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    <button type="submit" form="form-registration"
+                        class="btn-register btn bg-orange text-white">Зарегистрироваться</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        const myModal = document.getElementById('modal-registration')
+        const myInput = document.getElementById('email')
+
+        myModal.addEventListener('shown.bs.modal', () => {
+            myInput.focus()
+        })
+    </script>
+</body>
+
+</html>
