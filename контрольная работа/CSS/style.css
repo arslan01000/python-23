@@ -1,1 +1,90 @@
-<-- soon -->
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.navbar-toggler {
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    font-size: 30px;
+    line-height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-img {
+    background-image: url(../images/main-pic.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.main-title {
+    font-size: 56px;
+}
+
+.bg-grey {
+    background-color: #F5F3F3;
+}
+
+.c-1 {
+    width: 50px;
+    height: 50px;
+    background: url(../images/ic-business.png);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.c-2 {
+    width: 50px;
+    height: 50px;
+    background: url(../images/ic-startup.png);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+   background-position: center;
+}
+.c-3 {
+    width: 50px;
+    height: 50px;
+    background: url(../images/ic-economy.png);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.c-4 {
+    width: 50px;
+    height: 50px;
+    background: url(../images/ic-technology.png);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dics-title {
+    font-size: 44px;
+
+}
+
+.bg-yellow {
+    background-color: rgba(255, 208, 80, 0.5);
+}
+
+.fs-7 {
+    font-size: 14px;
+}
+
+.person-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.fot-icons {
+    width: 39px;
+    height: 39px;
+}
+
+.f-p-75 {
+    color: rgba(255, 255, 255, 0.75);
+}
