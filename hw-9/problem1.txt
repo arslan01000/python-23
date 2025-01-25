@@ -1,0 +1,7 @@
+#First Problem:
+
+mkdir project1 project2 project3
+cd project1
+mkdir subproject1_1 subproject1_2
+cd ..
+mkdir project3/subproject3_1
