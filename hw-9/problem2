@@ -1,0 +1,10 @@
+#Second Problem:
+
+Option #1:
+mv project1 new_project1 
+
+Option #2:
+mkdir new_project1
+mv project1/subproject1_1 new_project1
+mv project1/subproject1_2 new_project1
+rm -r project1
