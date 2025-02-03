@@ -1,0 +1,49 @@
+## Task_3
+_____________________
+
+
+1. False or (True or (2 < 3))
+False or (True or True)
+False or True
+True
+
+2. (2 > 3) and (3 < 4) or True
+False and True or True
+False or True
+True
+
+3. (not True or 5**2 != 1000) and not False
+(False or True) and True
+True and True
+True
+
+4. not ((None == False) and (25 >= 25)) and ("123" == 123)
+not (False and True) and False
+not False and False
+True and False
+False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
