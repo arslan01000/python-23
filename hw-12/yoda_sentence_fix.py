@@ -1,10 +1,12 @@
+# Rearranges a jumbled Yoda-style sentence into proper order.
+
 yoda = ['on Python', 'programming ', 'I like ']
 
-#Regular option
+# Regular option
 string = f"{yoda[2]}{yoda[1]}{yoda[0]}"
 print(string + "!")
 
-#Bonus option
+# Bonus option
 yoda[1] = yoda[1].strip()
 yoda[2] = yoda[2].strip()
 yoda.reverse()
