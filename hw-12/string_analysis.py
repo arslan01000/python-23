@@ -1,3 +1,5 @@
+# Analyzes a user-input string: length, first, and last character
+
 string = input("Введите строку: \n").strip()
 
 if string:
