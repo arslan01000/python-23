@@ -1,6 +1,6 @@
 # Analyzes a user-input string: length, first, and last character
 
-string = input("Введите строку: \n").strip()
+string = input("Enter a string: \n").strip()
 
 if string:
     string = string.lower()
@@ -11,9 +11,9 @@ if string:
     
     last_char = string[-1]
 
-    print(f"{'Длина строки':<20}{length}")
-    print(f"{'Первый символ':<20}{first_char}")
-    print(f"{'Последний символ':<20}{last_char}")
+    print(f"{'String length':<20}{length}")
+    print(f"{'First character':<20}{first_char}")
+    print(f"{'Last character':<20}{last_char}")
     
 else:
-    print("Вы ввели пустую строку. Error. \n")
+    print("You entered an empty string. Error. \n")
