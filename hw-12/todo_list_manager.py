@@ -1,3 +1,5 @@
+# Simple to-do list manager in Russian
+
 todo_list = ['Вынести мусор', 'Погулять с собакой', 'Оплатить интернет']
 
 todo_list_sorted = sorted(todo_list)
